@@ -10,7 +10,7 @@ spec ("user.lspconfig")
 spec ("user.cmp")
 spec ("user.nvimtree")
 spec ("user.lualine")
--- spec ("user.telescope")
+spec ("user.telescope")
 spec ("user.gitsign")
 
 require ("plugins") -- Plugin Manager lazy.nvim

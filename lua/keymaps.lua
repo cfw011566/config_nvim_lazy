@@ -9,9 +9,6 @@ local opts = { noremap = true, silent = true }
 -- vim.g.mapleader = ","
 -- vim.g.localleader = "\\"
 
-vim.g.loaded_netrw = 1
-vim.g.loaded_netrwPlugin = 1
-
 -- Better window navigation
 keymap('n', '<C-h>', '<C-w>h', opts)
 keymap('n', '<C-j>', '<C-w>j', opts)

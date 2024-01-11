@@ -4,6 +4,9 @@ local cmd = vim.api.nvim_command
 
 opt.clipboard = 'unnamed'   -- copy to system clipboard
 
+vim.g.loaded_netrw = 1
+vim.g.loaded_netrwPlugin = 1
+
 -- [[ Context ]]
 opt.colorcolumn = '80,132'
 opt.cursorline = true
@@ -17,7 +20,7 @@ opt.fileencoding = 'utf8'
 
 -- [[ Theme ]]
 -- opt.syntax = "ON"
--- opt.termguicolors = true    -- not work on Terminal of macOS
+opt.termguicolors = true    -- not work on Terminal of macOS
 -- vim.cmd([[colorscheme ayu-mirage]])
 -- vim.cmd([[colorscheme gruvbox-material]])
 -- vim.cmd([[colorscheme base16-gruvbox-material-dark-medium]])
