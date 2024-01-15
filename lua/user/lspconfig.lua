@@ -52,6 +52,7 @@ function M.config()
   local servers = {
     "lua_ls",
     "zls",
+    "rust_analyzer"
   }
 
   local default_diagnostic_config = {

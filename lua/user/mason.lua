@@ -7,8 +7,9 @@ local M = {
 }
 
 M.servers = {
-  "lua_ls",
-  "zls",
+    "lua_ls",
+    "zls",
+    "rust_analyzer"
 }
 
 function M.config()
